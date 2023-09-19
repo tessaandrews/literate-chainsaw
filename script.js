@@ -24,24 +24,24 @@ var highScoresArr=[]
 
 var questions = [
 {
-title: 'what does console.log do?:',
+title: 'What does console . log do?:',
 choices: ['its a function', 'its a loop', 'its a variable','it prints to the console'],
 answer: 'it prints to the console',
 },
 {
-title: 'whats the cats name?:',
-choices: ['Adam', 'Jerry', 'Butch', 'Tom'],
-answer: 'Tom',
+title: 'What does <ol> mean in html?:',
+choices: ['list', 'ordered list', 'paragraph', 'document'],
+answer: 'ordered list',
 },
 {
-title: 'what is the  name of the bunny?:',
-choices: ['Elm', 'Chris', 'Piggy','Bugs'],
-answer: 'Bugs',
+title: 'What does <aside> do in html?:',
+choices: ['sets the element to the side', 'hides the element', 'deletes it','debugs it'],
+answer: 'sets the element to the side',
 },
 {
-title: 'Commonly used?:',
-choices: ['yes', 'no', 'maybe'],
-answer: 'yes',
+title: 'What does <b> mean?:',
+choices: ['italics', 'bold', 'underlines', 'line break'],
+answer: 'bold',
 },
 ]
 
