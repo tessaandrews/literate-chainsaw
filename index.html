@@ -3,20 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css">
+   <link rel="stylesheet" href="style.css">
     <title>Coding Quiz</title>
-    <a href= "#">View Highscores</a>
-    <p id="time">Time</div>
-
 </head>
-<section class="header"
-style="align-self: center;">
-    <h1>High Scores</h1>
-</header>
 <body>
-    <div id="quiz"></div>
-    <button id="submit" style="align-items: center">Take Quiz</button>
-    <div id="Results"></div>
+    <a href= "scores.html">View Highscores</a>
+<header class="start-container">
+    <h1 style="text-align: center;">Code Quiz</h1>
+    <p  style="text-align: center;">Let's test your coding knowledge</p>
+    <button id="start-btn" style="align-items: center">Take Quiz</button>
+</header>
+        <div class="time-container hide">
+            <h2>Time:<span id="time">60</span></h2>
+            <h2>Score: <span id="score">0</span></h2>
+        </div>
+    <div class="quiz hide">
+        <h3 id="question">Question goes here</h3>
+        <div class="answer-buttons"></div>
+    </div>
+    
+    <div class="user-details hide">
+        <input id="user-input" type="text">
+        <button id="submit">Submit</button>
+    </div>
     
 <script src="script.js"></script>
 </body>

@@ -4,11 +4,16 @@
 }
 
 
-.header {
-    float: left;
-    font-size: 10px;
+
+
+/* #submit {
+    color: aquamarine;
+} */
+
+.hide{
+    display:none;
 }
 
-#submit {
-    color: aquamarine;
+.show{
+    display: block;
 }
